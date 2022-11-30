@@ -1,28 +1,46 @@
+:root {
+  --color-blue: #2196f3;
+  --color-navy: #2f303a;
+  --color-grey: #757575;
+  --color-white: #ffffff;
+  --color-black: #212121;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-grey);
+  background-color: var(--color-white);
+}
+
 .link {
   text-decoration: none;
-  color: #757575;
+  color: var(--color-grey);
 }
+
 .active-link {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--color-blue);
   font-weight: 500;
   font-style: normal;
   line-height: auto;
 }
+
 .nav-link {
   text-decoration: none;
-  color: #212121;
+  color: var(--color-black);
   font-weight: 500;
   font-style: normal;
   line-height: auto;
 }
+
 .footer-link {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: 400;
   font-style: normal;
   line-height: 1.7;
 }
+
 .link:hover,
 .link:focus,
 .footer-link:hover,
@@ -31,104 +49,112 @@
 .nav-link:focus,
 .active-link:hover,
 .active-link:focus {
-  color: #2196f3;
+  color: var(--color-blue);
   cursor: pointer;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #757575;
-  background-color: #fff;
-}
 .order {
-  background-color: #2f303a;
+  background-color: var(--color-navy);
   padding-left: 226px;
   padding-top: 140px;
   padding-right: 226px;
   padding-bottom: 140px;
   text-align: center;
 }
+
 .catchphrase {
-  font-size: 44px;
-  color: #fff;
+  font-size: 2.75rem;
+  color: var(--color-white);
 }
+
 .headline {
-  font-size: 36px;
-  color: #212121;
+  font-size: 2.25rem;
+  color: var(--color-black);
   text-align: center;
 }
+
 .logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  color: #fff;
+  font-size: 1.625rem;
+  color: var(--color-white);
   font-style: normal;
   font-weight: bold;
   line-height: auto;
 }
+
 .header-logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  color: #212121;
+  font-size: 1.625rem;
+  color: var(--color-black);
   font-weight: bold;
   line-height: auto;
 }
+
 .button {
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--color-black);
+  background-color: var(--color-white);
   border: none;
   padding: 5px;
 }
+
 .active-button,
 .button:hover,
 .button:focus {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-blue);
   border: none;
   cursor: pointer;
   padding: 5px;
 }
+
 .list {
   list-style: none;
 }
+
 .footer {
-  color: #ffffff;
-  font-size: 14px;
+  color: var(--color-white);
+  font-size: 0.875rem;
   font-style: normal;
-  background-color: #2f303a;
+  background-color: var(--color-navy);
   padding: 10;
 }
 
 .blue-web {
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .title {
-  color: #212121;
+  color: var(--color-black);
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
+
 .description {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.714;
 }
+
 .tm-name {
-  color: #212121;
-  font-size: 16px;
+  color: var(--color-black);
+  font-size: 1rem;
   font-weight: 500;
 }
+
 .tm-role {
-  font-size: 16px;
+  font-size: 1rem;
 }
+
 .project-name {
-  color: #212121;
-  font-size: 18px;
+  color: var(--color-black);
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 2;
 }
+
 .project-type {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.875;
 }
